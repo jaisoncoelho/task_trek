@@ -1,0 +1,91 @@
+/* Basic styling for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header styles */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Task item styles */
+.task {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.task p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Delete link style */
+.task .remove {
+  padding: 0; 
+  color: #d9534f;
+  font-size: 14px;  
+  background: none;
+  border: none;  
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Task form styles */
+form {
+  margin-top: 20px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  font-weight: bold;
+  display: block;
+}
+
+.field input[type="text"],
+.field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.field textarea {
+  height: 80px;
+}
+
+.field input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.field input[type="submit"]:hover {
+  background-color: #286090;
+}
+
+/* Flash notice styles */
+.notice {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
